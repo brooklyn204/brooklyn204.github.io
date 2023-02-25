@@ -11,6 +11,11 @@ body {
     color: var(--fifth_color);
 }
 
+.header {
+    background-image: url("woven_texture.jpg");
+    width:100%;
+}
+
 .container {
     display:flex;
 }
