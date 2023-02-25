@@ -8,8 +8,13 @@
 
 body {
     background-color: var(--first_color);
+    color: var(--fifth_color);
 }
 
-h1 {
-    color: var(--fifth_color);
+.container {
+    display:flex;
+}
+
+.test_div {
+    background-color: var(--third_color);
 }
