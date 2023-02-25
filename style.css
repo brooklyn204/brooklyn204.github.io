@@ -20,12 +20,22 @@ body {
 .header {
     background-image: url("blocks.jpg");
     background-size: cover;
-    width:100%;
-    height:300px;
+    width: 100%;
+    height: 500px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
+    position:absolute;
+    left:15%;
+    width:70%;
     display:flex;
+    justify-content: space-around;
+    border-left: var(--fourth_color) 2px solid;
+    border-right: var(--fourth_color) 2px solid;
 }
 
 .test_div {
