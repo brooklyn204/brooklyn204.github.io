@@ -5,6 +5,7 @@
     --fourth_color: rgb(187, 186, 198);
     --fifth_color: rgb(226, 226, 226);
     --margins: 20px;
+    --padding: 10px;
 }
 
 * {
@@ -41,14 +42,23 @@ body {
 }
 
 .container_item {
-    background-color: var(--second_color);
+    /*background-color: var(--second_color);*/
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top:var(--margins);
     margin-left:var(--margins);
     margin-right:var(--margins);
     margin-bottom:0px;
+}
+
+.sub_item {
+    /*background-color: var(--third_color);*/
+    padding:var(--padding);
+}
+
+#info_text {
+    width:60%;
 }
 
 #photo img {
