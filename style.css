@@ -8,4 +8,5 @@
 
 body {
     background-color: var(--first_color);
+    color: var(--fifth_color);
 }
