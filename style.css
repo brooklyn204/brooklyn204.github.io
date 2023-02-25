@@ -12,7 +12,7 @@ body {
 }
 
 .header {
-    background-image: url("woven_texture.jpg");
+    background-image: url("tiles.png");
     width:100%;
     height:300px;
 }
@@ -23,4 +23,6 @@ body {
 
 .test_div {
     background-color: var(--third_color);
+    width:80px;
+    height:80px;
 }
