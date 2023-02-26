@@ -19,8 +19,14 @@ body {
     color: var(--third_color);
 }
 
-.a {
-    color: var(--second_color);
+a:link {
+    color: var(--fourth_color);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--fifth_color);
+    text-decoration: none;
 }
 
 hr {
@@ -70,6 +76,13 @@ hr {
     margin: 5px;
     border-radius: 10px;
     padding:var(--padding);
+}
+
+.sub_item_group {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .item_header {
